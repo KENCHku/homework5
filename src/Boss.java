@@ -1,7 +1,7 @@
 public class Boss {
-    private int bossHeath = 350;
-    private String saveType = "Claws";
-    private double bossDamage = 40;
+    private int bossHeath;
+    private String saveType;
+    private double bossDamage;
 
     public Boss(){}
 

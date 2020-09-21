@@ -3,12 +3,20 @@ public class Hero {
     private double heroesDamage;
     private String superAbility;
 
-    public Hero(){}
+   //public Hero(){}
 
     public Hero(double heroesDamage, int heroesHealth){
         this.heroesHealth=heroesHealth;
         this.heroesDamage=heroesDamage;
     }
+
+    public Hero(double heroesDamage, int heroesHealth, String superAbility){
+        this.heroesHealth=heroesHealth;
+        this.heroesDamage=heroesDamage;
+        this.superAbility=superAbility;
+    }
+
+
 
     public int getHeroesHealth() {
         return heroesHealth;
